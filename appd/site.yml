@@ -1,6 +1,6 @@
 --- # 
 
-- name: Set up AppDynamics 4.4 4.4 4.4 4.4 Enterprise Console
+- name: Set up AppDynamics 4.4 4.4 Enterprise Console
   hosts: appdec
   gather_facts: true
 
