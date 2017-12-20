@@ -1,0 +1,8 @@
+[appdec]
+antlet50
+
+[appdc]
+antlet51
+
+[all:vars]
+ansible_connection=local

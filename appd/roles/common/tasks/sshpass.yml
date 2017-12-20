@@ -1,0 +1,6 @@
+--- # Install SSHPass. SSHPass is a utility that allows you to provide the ssh password without a prompt.
+
+- name: Install SSHPass
+  yum: 
+    name: sshpass 
+    state=latest
