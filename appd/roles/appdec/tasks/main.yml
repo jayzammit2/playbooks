@@ -1,3 +1,4 @@
 --- # Main Task
 
-- include: <your-play.yml>
+- name: Debug Vars
+  debug: msg="username is {{usernamer}}"
