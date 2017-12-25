@@ -1,6 +1,6 @@
 --- # Install SSHPass. SSHPass is a utility that allows you to provide the ssh password without a prompt.
 
 - name: Install SSHPass
-  yum: 
-    name: sshpass 
-    state=latest
+  debug:
+    msg: "System {{ inventory_hostname }} has gateway {{ ansible_default_ipv4.gateway }}"
+  when: ansible_default_ipv4.gateway is defined
