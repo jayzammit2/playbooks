@@ -1,10 +1,9 @@
 --- # Variables associated with this role
 
 # set appdynamics installation variables. --------------------------------------
-usernamer: root	 
-passwordr: antsle 
+username: root	 
+password: antsle 
 platform_release: 4.4.0.4220
 platform_installer: platform-setup-x64-linux-{{platform_release}}.sh"
 platform_home: opt/appdynamics/platform"
-
 
